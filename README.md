@@ -1,4 +1,4 @@
-# scdcpk — Cinepak for Sega CD encoder
+# Cinepak for Sega CD encoder
 
 This tool Encodes video and audio into the Cinepak for Sega format. This was done by taking bgvanbur's previous research
 and perl scripts and throwing them at Claude AI to make a more user friendly version. The code is entirely done by Claude AI.
