@@ -1,0 +1,13 @@
+Vendored from https://github.com/bbbbbr/tilepalquant at the commit in UPSTREAM_COMMIT.
+Only the files needed by scdcpk are included. These files remain under the MIT
+license in LICENSE.
+
+Changed for scdcpk:
+  quant.h    no PNG include; quantizeImage returns its image through an out
+             parameter; declares quantizeImageWithPalettes.
+  quant.cpp  the same API changes; quantizeImageWithPalettes (remap with fixed
+             palettes); per-tile work split across threads via par_for
+             (scdcpk src/par.h); dithered color choices cached per palette;
+             fixed-size candidate array in getClosestColorDither.
+
+All other files are unmodified.
